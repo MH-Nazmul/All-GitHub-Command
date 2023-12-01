@@ -54,6 +54,81 @@
 		"description": "Template"
 	  }
 
+	  "single for loop": {
+		"prefix": "f",
+		"body": [
+		  "for(int i = 0;i < n;i++)",
+		  "   {",
+		  "    ",
+		  "   }",
+		  " "
+		],
+		"description": "single for loop"
+	  }
 
+
+	  "double for loop": {
+		"prefix": "ff",
+		"body": [
+		  "for(int i = 0;i < n;i++)",
+		  "   {",
+		  "     for(int j = 0;j < m;j++)",
+		  "      {",
+		  "    ",
+		  "      }",
+		  "   }",
+		  "",
+		  " "
+		],
+		"description": "double for loop"
+	  }
+
+ 
+	  "declare array": {
+		"prefix": "arr",
+		"body": [
+		  "int n;",
+		  "cin>>n;",
+		  "int arr[n];",
+		  " for(int i = 0;i < n;i++)",
+		  "   {",
+		  "     cin>>arr[i];",
+		  "   }",
+		  ""
+		],
+		"description": "declare array"
+	  }
+
+	  "declare vector": {
+		"prefix": "vrr",
+		"body": [
+		  "int n;",
+		  "cin>>n;",
+		  "vec arr;",
+		  " for(int i = 0;i < n;i++)",
+		  "   {",
+		  "     int xx;",
+		  "     cin>>xx;",
+		  "     arr.push_back(xx);",
+		  "   }",
+		  ""
+		],
+		"description": "declare vector"
+	  }
+
+	  "printing elements": {
+		"prefix": "vcout",
+		"body": [
+		  "",
+		  " for(auto it:arr)",
+		  "   {",
+		  "     cout<<it<<\" \";",
+		  "   }",
+		  " cout<<\"\\n\";",
+		  ""
+		],
+		"description": "printing elements"
+	  }
 
 }
+fd
